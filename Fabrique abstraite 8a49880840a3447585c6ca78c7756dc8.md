@@ -10,7 +10,8 @@ C’est un design pattern qui ne permet non pas d’instancier différents objet
 
 Cela consiste donc a détacher toutes les méthodes de création des méthodes d’utilisation afin de rendre la maintenance et la compréhension des applications plus simple.
 
-![[Reférence](https://www.notion.so/Fabrique-abstraite-8a49880840a3447585c6ca78c7756dc8?pvs=21)](Fabrique%20abstraite%208a49880840a3447585c6ca78c7756dc8/Fabrique_abstraite.jpg)
+![Fabrique abstraite JPG](https://github.com/Rackyrr/Expose-sur-les-mod-les-de-conception/assets/119299228/d56f56a9-a584-45a2-b847-bf839394613a)
+
 
 Reférence[<sup>1</sup>](#note-et-références)
 
@@ -42,7 +43,8 @@ Cependant, il ne sait pas quelle différence existe entre les téléphones ; il
 
 La fabrique abstraite serait, en général, une classe nommée "Téléphone" dont les interfaces associées sont “téléphone moderne”, “téléphone à clapet”, “téléphone mobile”, “téléphone à cadran”, etc.
 
-![Untitled](Fabrique%20abstraite%208a49880840a3447585c6ca78c7756dc8/Untitled.png)
+![Shape Factory](https://github.com/Rackyrr/Expose-sur-les-mod-les-de-conception/assets/119299228/7e8d6d34-1b9e-4c1f-a37a-43e472333f15)
+
 
 (Exemple de l’abstract factory[<sup>3</sup>](#note-et-références), l’abstract factory représente ici l’usine final, la spheric et la pyramidal factory des fils envoyant a l’usine mère (une usine de forme par exemple) les produits finaux)
 
@@ -56,7 +58,8 @@ Voici donc quelques exemples pour vous aider à comprendre ce modèle :
 
 Pour cette exemple[<sup>3</sup>](#note-et-références), nous allons utiliser des éléments pour une interface qui est multiplateforme, c’est-à-dire que l’application pourra fonctionner sous différent système d’exploitation sans problème.
 
-![Untitled](Fabrique%20abstraite%208a49880840a3447585c6ca78c7756dc8/Untitled%201.png)
+![Pseudo Code](https://github.com/Rackyrr/Expose-sur-les-mod-les-de-conception/assets/119299228/97a7750a-36bd-4848-b0f2-f72bfa1b70ad)
+
 
 Dans un premier temps, nous allons créer la fabrique abstraite qui permettra de créer les éléments de notre interface, pour notre cas il n’y a que des boutons et des  cases à cocher. 
 
