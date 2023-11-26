@@ -10,7 +10,7 @@ C’est un design pattern qui ne permet non pas d’instancier différents objet
 
 Cela consiste donc a détacher toutes les méthodes de création des méthodes d’utilisation afin de rendre la maintenance et la compréhension des applications plus simple.
 
-![[Reférence](https://www.notion.so/Fabrique-abstraite-8a49880840a3447585c6ca78c7756dc8?pvs=21)](Fabrique%20abstraite%208a49880840a3447585c6ca78c7756dc8/Fabrique_abstraite.jpg)
+![[Reférence](https://www.notion.so/Fabrique-abstraite-8a49880840a3447585c6ca78c7756dc8?pvs=4#aa1db8645d1244b2be12f9c6c204880a)
 
 [Reférence](https://www.notion.so/Fabrique-abstraite-8a49880840a3447585c6ca78c7756dc8?pvs=21)
 
