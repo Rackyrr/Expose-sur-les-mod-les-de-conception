@@ -4,7 +4,7 @@ Propriétaire: Valentin
 
 # Principe
 
-La fabrique abstraite[<sup>2</sup>](# Note et références) est un patron de conception qui permet de créer des familles d’objets apparentés sans préciser leur classe concrets.
+La fabrique abstraite['<sup>2</sup>'](# Note et références) est un patron de conception qui permet de créer des familles d’objets apparentés sans préciser leur classe concrets.
 
 C’est un design pattern qui ne permet non pas d’instancier différents objets de la même classe mère, mais pour instancier plusieurs objets de plusieurs classes mères.
 
@@ -12,7 +12,7 @@ Cela consiste donc a détacher toutes les méthodes de création des méthodes d
 
 ![[Reférence](https://www.notion.so/Fabrique-abstraite-8a49880840a3447585c6ca78c7756dc8?pvs=21)](Fabrique%20abstraite%208a49880840a3447585c6ca78c7756dc8/Fabrique_abstraite.jpg)
 
-[Reférence<sup>1</sup>](# Note et références)
+Reférence['<sup>1</sup>'](# Note et références)
 
 ---
 
@@ -32,7 +32,7 @@ La fabrique abstraite est souvent utilisée lorsque la création d'objets dans u
 | Prototype (Prototype) | Création d'objet à partir d'un prototype |
 | Singleton (Singleton) | Classe qui ne pourra avoir qu'une seule instance |
 
-Reférence[<sup>5</sup>](# Note et références)
+Reférence['<sup>5</sup>'](# Note et références)
 
 # Utilisation dans différents domaines
 
@@ -54,7 +54,7 @@ Voici donc quelques exemples pour vous aider à comprendre ce modèle :
 
 ## Pseudo-code
 
-Pour cette exemple[<sup>3</sup>](# Note et références), nous allons utiliser des éléments pour une interface qui est multiplateforme, c’est-à-dire que l’application pourra fonctionner sous différent système d’exploitation sans problème.
+Pour cette exemple['<sup>3</sup>'](# Note et références), nous allons utiliser des éléments pour une interface qui est multiplateforme, c’est-à-dire que l’application pourra fonctionner sous différent système d’exploitation sans problème.
 
 ![Untitled](Fabrique%20abstraite%208a49880840a3447585c6ca78c7756dc8/Untitled%201.png)
 
@@ -155,7 +155,7 @@ class ApplicationConfigurator is
 
 ## Java
 
-Cet exemple[<sup>4</sup>](# Note et références) implémente un système pour créer deux types d'ordinateurs, soit un pc, soit un serveur.
+Cet exemple['<sup>4</sup>'](# Note et références) implémente un système pour créer deux types d'ordinateurs, soit un pc, soit un serveur.
 
 Dans un premier temps, la classe abstraite Computer représente la structure basique d’un ordinateur en regroupant de la RAM un disque dur et un processeur.
 
