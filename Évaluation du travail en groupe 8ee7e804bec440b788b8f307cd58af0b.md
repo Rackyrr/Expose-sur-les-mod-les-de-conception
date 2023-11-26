@@ -1,7 +1,5 @@
 # Évaluation du travail en groupe
 
-Propriétaire: robin
-
 ![Untitled.png](E%CC%81valuation%20du%20travail%20en%20groupe%208ee7e804bec440b788b8f307cd58af0b/Untitled.png)
 
 ## Questions ouvertes sur le travail en groupe
